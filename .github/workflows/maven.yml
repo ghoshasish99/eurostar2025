@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v4.3.6
       with:
         name: Execution Reports
-        path: Projects/EuroSTAR/Results/TestRelease/Regression/Latest
+        path: Projects/EuroSTAR/Results/TestExecution/TestRelease/Regression/Latest
