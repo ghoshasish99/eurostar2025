@@ -1,3 +1,3 @@
 Scenario,Flow,Iteration,SubIteration,Product,Email,Password,Login Message,State,PostCode,Account Name,Account Number
-Browser,Purchase a Tool,1,1,Bolt Cutters,customer@practicesoftwaretesting.com,welcome01,"Hello Jane Doe, you are already logged in. You can proceed to checkout.",Noord Holland,1181AC,Spencer Waelchi II,4945783387800714
-Browser,Purchase a Tool,2,1,Thor Hammer,customer@practicesoftwaretesting.com,welcome01,"Hello Jane Doe, you are already logged in. You can proceed to checkout.",Noord Holland,1181AC,Dorothea Gislason,6224074654219902
+Browser,Purchase a Tool,1,1,Bolt Cutters,customer@practicesoftwaretesting.com,welcome01,"Hello Jane Doe, you are already logged in. You can proceed to checkout.",Noord Holland,1181AC,Jacalyn Marvin,6772753753734850
+Browser,Purchase a Tool,2,1,Thor Hammer,customer@practicesoftwaretesting.com,welcome01,"Hello Jane Doe, you are already logged in. You can proceed to checkout.",Noord Holland,1181AC,Mrs. Albert Rempel,3112116831142917

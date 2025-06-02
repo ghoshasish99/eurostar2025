@@ -48,5 +48,21 @@
       "name" : "scenario",
       "value" : "Mobile"
     } ]
+  }, {
+    "id" : "Get-Brand",
+    "name" : "Get-Brand",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API"
+    } ]
+  }, {
+    "id" : "Post-Payment",
+    "name" : "Post-Payment",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "scenario",
+      "value" : "API"
+    } ]
   } ]
 }

@@ -8,5 +8,12 @@
             <TestCase exeType="Executable" ref="Payment"/>
         </Scenario>
     </Folder>
-    <Folder ref="MobileTests"/>
+    <Folder ref="MobileTests">
+        <Scenario ref="Activities">
+            <TestCase exeType="Executable" ref="Add Product to Cart"/>
+            <TestCase exeType="Executable" ref="Login"/>
+            <TestCase exeType="Executable" ref="Fill Address"/>
+            <TestCase exeType="Executable" ref="Payment"/>
+        </Scenario>
+    </Folder>
 </Root>
