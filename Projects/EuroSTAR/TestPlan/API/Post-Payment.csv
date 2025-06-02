@@ -1,0 +1,13 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Webservice,"Set End Point ",setEndPoint,@https://api.practicesoftwaretesting.com/payment/check,,
+2,Synthetic Data,Generate a random full name,fullName,API Data:Account Name,,
+3,Synthetic Data,Generate a random IBAN (International Bank Account Number),iban,API Data:Account Number,,
+4,Webservice,"POST Rest Request ",postRestRequest,"{
+  ""payment_method"": ""bank-transfer"",
+  ""payment_details"": {
+    ""bank_name"": ""{API Data:Bank Name}"",
+    ""account_name"": ""{API Data:Account Name}"",
+    ""account_number"": ""{API Data:Account Number}""
+  }
+}",,
+5,Webservice,Store JSON Element,storeJSONelementInDataSheet,API Data:Payment Status,$.message,

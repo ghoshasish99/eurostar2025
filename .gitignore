@@ -1,0 +1,8 @@
+LICENSE
+logs/
+Projects/*/Results/*/
+web/
+recent.items
+log.txt
+Tools/
+lib/*.jar

@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Proceed to Checkout,"Tap the [<Object>] ",Tap,,,Sign In Page
+2,State,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:State,,Address
+3,Post Code,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:Post Code,,Address

@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,Product Name,Email,Password,Address,City,State,Country,Post Code,Message,Account Name,Account Number,Status
+Mobile,Purchase a Tool,1,1,Bolt Cutters,customer@practicesoftwaretesting.com,welcome01,Logger 81,Amsterdam,Noord Holland,Netherlands,1181AC,"Hello Jane, you are already logged in. You can proceed to checkout."," J. Doe",BA484862428168720164,Payment was successful,Payment was successful

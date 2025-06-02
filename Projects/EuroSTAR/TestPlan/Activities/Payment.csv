@@ -1,0 +1,10 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Proceed to Checkout,"Tap the [<Object>] ",Tap,,,Address
+2,Payment Method,"Tap the [<Object>] ",Tap,,,Payment
+3,Credit Card,"Tap the [<Object>] ",Tap,,,Payment
+4,Account Name,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:Account Name,,Payment
+5,Synthetic Data,Generate a random IBAN (International Bank Account Number),iban,Mobile Data:Account Number,,
+6,Account Number,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:Account Number,,Payment
+7,Validate,"Tap the [<Object>] ",Tap,,,Payment
+8,Payment Status,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,Mobile Data:Status,,Payment
+9,Confirm Checkout,"Tap the [<Object>] ",Tap,,,Payment

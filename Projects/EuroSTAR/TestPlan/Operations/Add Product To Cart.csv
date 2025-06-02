@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Product To Select,Set object [<Object>] property  as [<Data>] at runtime,setObjectProperty,Browser Data:Product,"#productName",Purchase
+2,Product To Select,"Click the [<Object>] ",Click,,,Purchase
+3,add-to-cart,"Click the [<Object>] ",Click,,,Purchase
+4,Product added to shopping,"Click the [<Object>] ",Click,,,Purchase
+5,nav-cart,"Click the [<Object>] ",Click,,,Purchase
+6,product-title,Assert if [<Object>] contains the text [<Data>],assertElementContainsText,Browser Data:Product,,Purchase

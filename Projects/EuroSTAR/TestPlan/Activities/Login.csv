@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Email,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:Email,,Sign In Page
+2,Password,Enter the value [<Data>] in the Field [<Object>],Set,Mobile Data:Password,,Sign In Page
+3,Login,"Tap the [<Object>] ",Tap,,,Sign In Page
+4,Welcome Message,Assert if [<Object>]'s Text Equals [<Data>],assertElementTextEquals,Mobile Data:Message,,Sign In Page

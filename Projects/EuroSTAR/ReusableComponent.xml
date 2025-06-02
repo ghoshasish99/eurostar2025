@@ -1,0 +1,12 @@
+<Root ref="EuroSTAR" type="RC">
+    <Folder ref="BrowserTests">
+        <Scenario ref="Operations">
+            <TestCase exeType="Executable" ref="Open Application"/>
+            <TestCase exeType="Executable" ref="Add Product To Cart"/>
+            <TestCase exeType="Executable" ref="Login"/>
+            <TestCase exeType="Executable" ref="Fill Address"/>
+            <TestCase exeType="Executable" ref="Payment"/>
+        </Scenario>
+    </Folder>
+    <Folder ref="MobileTests"/>
+</Root>

@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,proceed-1,"Click the [<Object>] ",Click,,,Purchase
+2,email,Enter the value [<Data>] in the Field [<Object>],Fill,Browser Data:Email,,Purchase
+3,password,Enter the value [<Data>] in the Field [<Object>],Fill,Browser Data:Password,,Purchase
+4,login-submit,"Click the [<Object>] ",Click,,,Purchase
+5,Login message,Assert if [<Object>] contains the text [<Data>],assertElementContainsText,Browser Data:Login Message,,Purchase
+6,proceed-2,"Click the [<Object>] ",Click,,,Purchase

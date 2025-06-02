@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,Activities:Add Product to Cart,,,
+2,Execute,,Activities:Login,,,
+3,Execute,,Activities:Fill Address,,,
+4,Execute,,Activities:Payment,,,

@@ -1,0 +1,320 @@
+<Root type="MOR" ref="EuroSTAR">
+  <Page packageName="" ref="Home Page">
+    <ObjectGroup ref="[Add to Cart]">
+      <Object ref="[Add to Cart]">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="(//android.view.ViewGroup[@content-desc=&quot;Add product to cart&quot;])[3]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Cart icon">
+      <Object ref="Cart icon">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@text=&quot;󰵨&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page packageName="" ref="Cart Page">
+    <ObjectGroup ref="Proceed to Checkout">
+      <Object ref="Proceed to Checkout">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.view.ViewGroup[@content-desc=&quot;proceed-button&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Product Name">
+      <Object ref="Product Name">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@content-desc=&quot;product-name&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page packageName="" ref="Sign In Page">
+    <ObjectGroup ref="Email">
+      <Object ref="Email">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.EditText[@content-desc=&quot;email-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object ref="Password">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.EditText[@content-desc=&quot;password-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object ref="Login">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.view.ViewGroup[@content-desc=&quot;login-button&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Welcome Message">
+      <Object ref="Welcome Message">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@content-desc=&quot;nav-welcome&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Proceed to Checkout">
+      <Object ref="Proceed to Checkout">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@text=&quot;Proceed to Checkout&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page packageName="" ref="Address">
+    <ObjectGroup ref="Address">
+      <Object ref="Address">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.EditText[@content-desc=&quot;address-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="City">
+      <Object ref="City">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="&#x9; //android.widget.EditText[@content-desc=&quot;city-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="State">
+      <Object ref="State">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.EditText[@content-desc=&quot;state-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Country">
+      <Object ref="Country">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.EditText[@content-desc=&quot;country-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Post Code">
+      <Object ref="Post Code">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="&#x9; //android.widget.EditText[@content-desc=&quot;postcode-input&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Proceed to Checkout">
+      <Object ref="Proceed to Checkout">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@text=&quot;Proceed to Checkout&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page packageName="" ref="Payment">
+    <ObjectGroup ref="Credit Card">
+      <Object ref="Credit Card">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.CheckedTextView[@resource-id=&quot;android:id/text1&quot; and @text=&quot;Credit Card&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Account Name">
+      <Object ref="Account Name">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="account-name-input" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Account Number">
+      <Object ref="Account Number">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="account-number-input" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Payment Status">
+      <Object ref="Payment Status">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.widget.TextView[@content-desc=&quot;confirmation-message&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Confirm Checkout">
+      <Object ref="Confirm Checkout">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="&#x9; //android.view.ViewGroup[@content-desc=&quot;checkout-button&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Validate">
+      <Object ref="Validate">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="Accessibility" pref="4"/>
+        <Property value="//android.view.ViewGroup[@content-desc=&quot;validate-button&quot;]" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Payment Method">
+      <Object ref="Payment Method">
+        <Property value="" ref="UiAutomator" pref="1"/>
+        <Property value="" ref="UiAutomation" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="payment-method-picker" ref="Accessibility" pref="4"/>
+        <Property value="" ref="xpath" pref="5"/>
+        <Property value="" ref="css" pref="6"/>
+        <Property value="" ref="name" pref="7"/>
+        <Property value="" ref="tagName" pref="8"/>
+        <Property value="" ref="link_text" pref="9"/>
+        <Property value="" ref="class" pref="10"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
