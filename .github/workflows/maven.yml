@@ -27,9 +27,9 @@ jobs:
     - name: Set Permissions      
       run: chmod -R 755 ./
     - name: Run tests            
-      run: ./Run.command -run -project_location "Projects/EuroSTAR" -release "TestRelease" -testset "Regression" -setEnv "capability.chromium.setheadless=true"
+      run: ./Run.command -run -project_location "Projects/EuroSTAR" -release "TestRelease" -testset "Regression" -setEnv "capability.chromium.setheadless=true;AzureReport=true"
     - name: Upload Reports       
       uses: actions/upload-artifact@v4.3.6
       with:
         name: Execution Reports
-        path: Projects/EuroSTAR/Results/TestRelease/Release1/Regression/Latest
+        path: Projects/EuroSTAR/Results/TestRelease/Regression/Latest
